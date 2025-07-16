@@ -186,8 +186,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Edwin Jose**
-- GitHub: [@your-github-username](https://github.com/your-github-username)
+**Edwin**
+- GitHub: @EdwinShibuMathew https://github.com/EdwinShibuMathew/
 
 ## 🙏 Acknowledgments
 
@@ -209,4 +209,4 @@ Intuitive interfaces for managing your music collection.
 
 ---
 
-Made with ❤️ by Edwin Jose
+Made with ❤️ by Edwin
