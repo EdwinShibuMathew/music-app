@@ -180,14 +180,59 @@ Open your browser and navigate to `http://localhost:3000`
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## � Deployment
+
+### Frontend Deployment (Vercel)
+
+1. **Connect to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Connect your GitHub account
+   - Import your repository
+   - Select the `frontend` folder as the root directory
+
+2. **Environment Variables**:
+   ```
+   REACT_APP_HOST_URL=https://your-backend-url.railway.app
+   ```
+
+3. **Deploy**: Vercel will automatically build and deploy your frontend
+
+### Backend Deployment (Railway)
+
+1. **Connect to Railway**:
+   - Go to [railway.app](https://railway.app)
+   - Connect your GitHub account
+   - Create a new project from your repository
+
+2. **Environment Variables**:
+   ```
+   DB_HOST=your_database_host
+   DB_USER=your_database_user  
+   DB_PASSWORD=your_database_password
+   DB_NAME=your_database_name
+   PORT=5000
+   NODE_ENV=production
+   FRONTEND_URL=https://your-frontend-url.vercel.app
+   ```
+
+3. **Database Setup**:
+   - Use Railway's MySQL addon or external database
+   - Run the `model.sql` script to create tables
+
+### Alternative Deployment Options
+
+- **Frontend**: Netlify, GitHub Pages, Firebase Hosting
+- **Backend**: Heroku, DigitalOcean, AWS Elastic Beanstalk  
+- **Database**: PlanetScale, AWS RDS, Google Cloud SQL
+
+## �📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
-**Edwin Jose**
-- GitHub: [@your-github-username](https://github.com/your-github-username)
+**Edwin**
+- GitHub: @EdwinShibuMathew https://github.com/EdwinShibuMathew/
 
 ## 🙏 Acknowledgments
 
@@ -209,4 +254,4 @@ Intuitive interfaces for managing your music collection.
 
 ---
 
-Made with ❤️ by Edwin Jose
+Made with ❤️ by Edwin
